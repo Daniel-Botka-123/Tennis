@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right top, #4ee44e, #61e760, #72e971, #81ec81, #90ee90);
+    text-align: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+canvas {
+    border: 10px solid #000;
+    margin: 2.5rem;
+}
+
+#player_1 {
+    position: absolute;
+    top: 6vh;
+    left: 15vw;
+}
+
+#player_2 {
+    position: absolute;
+    top: 62vh;
+    left: 15vw;
+}
